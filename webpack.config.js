@@ -8,6 +8,10 @@ const config = {
         filename: '[name].bundle.js',
         chunkFilename: '[name].bundle.js'
     },
+    devServer: {
+        open: true,
+        hot: true
+    },
     module: {
         rules: [
             {
